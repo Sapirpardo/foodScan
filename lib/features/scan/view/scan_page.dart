@@ -12,7 +12,7 @@ class ScanPage extends StatelessWidget {
       create: (_) => ScanViewModel(),
       child: Scaffold(
         appBar: AppBar(
-          title: const Text('סריקת מזון'),
+          title: const Text('סריקה'),
         ),
         body: Consumer<ScanViewModel>(
           builder: (context, viewModel, child) {
