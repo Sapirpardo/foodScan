@@ -75,6 +75,19 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_web_plugins:
+    dependency: transitive
+    description: flutter
+    source: sdk
+    version: "0.0.0"
+  js:
+    dependency: transitive
+    description:
+      name: js
+      sha256: c1b2e9b5ea78c45e1a0788d29606ba27dc5f71f019f32ca5140f61ef071838cf
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.7.1"
   leak_tracker:
     dependency: transitive
     description:
@@ -131,6 +144,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.15.0"
+  mobile_scanner:
+    dependency: "direct main"
+    description:
+      name: mobile_scanner
+      sha256: "1b60b8f9d4ce0cb0e7d7bc223c955d083a0737bee66fa1fcfe5de48225e0d5b3"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.5.7"
+  nested:
+    dependency: transitive
+    description:
+      name: nested
+      sha256: "03bac4c528c64c95c722ec99280375a6f2fc708eec17c7b3f07253b626cd2a20"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0"
   path:
     dependency: transitive
     description:
@@ -139,6 +168,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.9.0"
+  provider:
+    dependency: "direct main"
+    description:
+      name: provider
+      sha256: "4abbd070a04e9ddc287673bf5a030c7ca8b685ff70218720abab8b092f53dd84"
+      url: "https://pub.dev"
+    source: hosted
+    version: "6.1.5"
   sky_engine:
     dependency: transitive
     description: flutter
